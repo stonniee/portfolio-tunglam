@@ -1,0 +1,171 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio </title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/70d36cc08a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="image/logo.png" class="logo">
+            <ul>
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="header-text">
+            <p>Photographer and Web Designer</p>
+            <h1>I'm Stonnie<br>a.k.a.heartless.valley</h1>
+        </div>
+    </div>
+</div>
+<div>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="image/B83A6915-7678-4269-A4DE-B6E3E78EE6C1.jpg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About me</h1>
+                    <p>My work is mainly focused on landscape.I like to describe my pictures as B&W, mysterious yet classic and a little unconventional in them.
+                        Now I’m a photographer in Hanoi with  a passion for creativity and productivity</p>
+                    <div class="tab-title">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links"onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links"onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Photography</span><br>B&W landspape</li>
+                            <li><span>Web Design</span><br>Design Web/App Interface</li>
+                            <li><span>App Development</span><br>Buiding OS apps</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2022 - Current</span><br>Data Analyst at FPT</li>
+                            <li><span>2022-2020</span><br>Freelance photographer</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2022-Current</span><br>Arena Multimedia</li>
+                            <li><span>2020-2023</span><br>University of Science and Technology of Hanoi</li>
+                        </ul>
+                    </div>            
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-check"></i>
+                <h2>Basic</h2>
+                <p>Web Design,Photography,5GB Storage,Mail Support</p>
+                <a href="#">Learn more</a>
+                </h2>
+            </div>
+            <div>
+                <i class="fa-solid fa-crown"></i>
+                <h2>Pro</h2>
+                <p>Web Design,Photography,50GB Storage,Endless Support</p>
+                <a href="#">Learn more</a>
+                </h2>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">Works</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="image/IMG_9937.JPG" alt="">
+                <div class="layer">
+                    <h3>Hanoi</h3>
+                    <p>Hanoi, literally the “city between the rivers”, is the capital and second biggest city of Viet Nam.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="image/IMG_9446.JPG" alt="">
+                <div class="layer">
+                    <h3>Saigon</h3>
+                    <p>Saigon is the economic heart of Vietnam and the main hub of the southern region.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div> <div class="work">
+                <img src="image/IMG_9790 (1).jpg" alt="">
+                <div class="layer">
+                    <h3>Danang</h3>
+                    <p>Da Nang is located in the Central Part of Vietnam, so it is very convenient for people from the North or the South to move to.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Conatct me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>contact@email.com</p>
+                <p><i class="fa-solid fa-square-phone"></i>1234567890</p>
+                <div class="social-icon">
+                    <a href="https://facebook.com/"><i class="fa-brands fa-facebook"></i></i></a>
+                    <a href="https://instagram.com"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://linkedin.com"><i class="fa-brands fa-linkedin"></i></i></a>
+                </div>
+                <a href="image/my-cv.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name"required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Stonnie</p>
+    </div>
+</div>
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link")
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab")
+        }
+        event.currentTarget.classList.add("active-link")
+        document.getElementById(tabname).classList.add("active-tab")
+    }
+
+</script>
+
+</body>
+</html>
